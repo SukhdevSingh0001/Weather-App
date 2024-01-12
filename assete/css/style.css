@@ -6,7 +6,7 @@ h1{
     text-align: center;
 }
 body{
-    background-image: url('assete/bgimg.webp');
+    background-image: url('/Weather-App/assete/bgimg.webp');
     height: 100vh;
     overflow: hidden;
     background-repeat: no-repeat; 
