@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    text-align: center;
+}
+body{
+    background-image: url('/assete/bgimg.webp');
+    height: 100vh;
+    overflow: hidden;
+    background-repeat: no-repeat; 
+    background-position: top center;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.app-main{
+    width: 50vh;
+    margin: 100px auto;
+    background-color: rgba(240, 248, 255, 0.6);
+    padding: 20px;
+    text-align: center;
+}
+.app-main >*{
+    margin-bottom:20px ;
+}
+.input-box{
+    width: 95%;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: none;
+    outline: none;
+    /* color: #582233; */
+    color: black;
+    font-size: 1.2rem;
+    text-decoration: none;
+    height: 50px;
+    border-radius: 5px;
+    padding: 0 10px;
+    text-align: center;
+}
+.input-box:focus{
+    background-color: rgba(142, 129, 129, 0.6);
+}
+
+.weatherbody{
+    display: none;
+    padding: 20px;
+    line-height: 2rem;
+    color: #582233;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    height: 50vh;
+}
+.loctiondetails{
+    font-weight: bold;
+    /* font-size: x-large; */
+}
+.weather-status{
+    padding: 20px;
+}
+.temp{
+    font-size: 55pt;
+    font-weight: 700;
+    margin: 30px 0;
+    text-shadow: 2px 4px rgba(0, 0, 0, 0.3);
+}
+.min-max,
+.weather{
+    /* font-size: 12pt; */
+    font-size: 18px;
+    font-weight: 600;
+}
